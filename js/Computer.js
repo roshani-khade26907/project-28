@@ -10,9 +10,9 @@ class Computer {
     this.height = height;
     this.image = loadImage("./assets/player.png");
 
-    this.life1 = "#green";
-    this.life2 = "#green";
-    this.life3 = "#green";
+    this.life1 = "green";
+    this.life2 = "green";
+    this.life3 = "green";
 
     World.add(world, this.body);
   }
