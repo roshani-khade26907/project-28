@@ -13,7 +13,7 @@ class Computer {
     this.life1 = "green";
     this.life2 = "green";
     this.life3 = "green";
-
+    
     World.add(world, this.body);
   }
 
